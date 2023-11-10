@@ -1,7 +1,7 @@
 app:
     name: grafana
     code: Grafana
-    notify: bkoshy@ecloudcontrol.com
+    notify: sjunu@ecloudcontrol.com
     
 build:
     version: 7.0
@@ -11,7 +11,7 @@ build:
     image_template: grafana-7.0
     
 deploy:
-    context: alpha/DEV
+    context: SJ-CloudControl/DEV
     type: statefulset
     replicas: 1
     port:
